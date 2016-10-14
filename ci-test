@@ -1,3 +1,4 @@
 "scripts": {
-    "ci-test": "istanbul cover tape \"test/*-test.js\" > test.tap && istanbul report clover"
+    "ci-test": "istanbul cover tape \"test/*-test.js\" > test.tap && istanbul report clover",
+    "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml"
 }
